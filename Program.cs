@@ -40,7 +40,7 @@ for (int c = 0; c < charsetV.Length; c++)
                             {
                                 attempt = charsetV[c] + charsetV[c2] + charsetV[c3] + charsetV[c4] + charsetV[c5] + charsetV[c6] + charsetV[c7] + charsetV[c8];
                                 //Console.WriteLine(attempt); -> uncomment this line if yo want to see all the combinations beeing generated
-                                // Checks if current guess equals password, and if so, terminates all for loops
+                                // Checks if current attempt equals password, and if so, terminates all for loops
                                 if (attempt == password)
                                 {
                                     c = c2 = c3 = c4 = c5 = c6 = c7 = c8 = charsetV.Length - 1;
